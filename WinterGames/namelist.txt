@@ -1,0 +1,41 @@
+# Namensliste für KI Spieler
+# Leere Zeilen und Zeilen, die mit '#' beginnen werden ignoriert,
+# jede andere Zeile wird als Name für Bots interpretiert
+
+Andreas
+Boris
+Charles
+Daniel
+Eddy
+Florian
+Guido
+Harald
+Ilya
+Jochen
+Joerg
+Kevin
+Leon
+Martin
+Nicki
+Oliver
+Patrick
+Quentin
+Ralf
+Sebastian
+Tobias
+Uwe
+Valentin
+Wolfgang
+Xaver
+Yamamoto
+Zacharias
+Tyler
+Peter
+Norbert
+Sepp
+Jimmy
+Jack
+Johnny
+Luke
+Michael
+

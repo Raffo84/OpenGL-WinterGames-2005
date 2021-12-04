@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1738
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wintergames", "Wintergames\Wintergames.vcxproj", "{B8EF0D11-EB67-4E1C-B046-E0BDA32893A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coolLib", "coolLib\coolLib.vcxproj", "{2BB8008A-D320-4E08-A93A-E80C3122070E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coolTex", "coolTex\coolTex.vcxproj", "{A1163DD6-81C9-4D22-A623-8224C26EB1F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mountainLib", "mountainLib\mountainLib.vcxproj", "{884C3731-E9DB-425E-9FC6-B7D59CF2A926}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "particleLib", "particleLib\particleLib.vcxproj", "{9A7003C1-6E9C-4747-95E9-B9DA1D0B13E8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetworkPackets", "NetworkPackets\NetworkPackets.vcxproj", "{AD968978-7AEC-49DD-AC52-9EBADBE777D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "menuLib", "menuLib\menuLib.vcxproj", "{8978C824-9F33-4449-88F6-CB841BA5D415}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8EF0D11-EB67-4E1C-B046-E0BDA32893A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B8EF0D11-EB67-4E1C-B046-E0BDA32893A2}.Debug|Win32.Build.0 = Debug|Win32
+		{B8EF0D11-EB67-4E1C-B046-E0BDA32893A2}.Release|Win32.ActiveCfg = Release|Win32
+		{B8EF0D11-EB67-4E1C-B046-E0BDA32893A2}.Release|Win32.Build.0 = Release|Win32
+		{2BB8008A-D320-4E08-A93A-E80C3122070E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2BB8008A-D320-4E08-A93A-E80C3122070E}.Debug|Win32.Build.0 = Debug|Win32
+		{2BB8008A-D320-4E08-A93A-E80C3122070E}.Release|Win32.ActiveCfg = Release|Win32
+		{2BB8008A-D320-4E08-A93A-E80C3122070E}.Release|Win32.Build.0 = Release|Win32
+		{A1163DD6-81C9-4D22-A623-8224C26EB1F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A1163DD6-81C9-4D22-A623-8224C26EB1F2}.Debug|Win32.Build.0 = Debug|Win32
+		{A1163DD6-81C9-4D22-A623-8224C26EB1F2}.Release|Win32.ActiveCfg = Release|Win32
+		{A1163DD6-81C9-4D22-A623-8224C26EB1F2}.Release|Win32.Build.0 = Release|Win32
+		{884C3731-E9DB-425E-9FC6-B7D59CF2A926}.Debug|Win32.ActiveCfg = Debug|Win32
+		{884C3731-E9DB-425E-9FC6-B7D59CF2A926}.Debug|Win32.Build.0 = Debug|Win32
+		{884C3731-E9DB-425E-9FC6-B7D59CF2A926}.Release|Win32.ActiveCfg = Release|Win32
+		{884C3731-E9DB-425E-9FC6-B7D59CF2A926}.Release|Win32.Build.0 = Release|Win32
+		{9A7003C1-6E9C-4747-95E9-B9DA1D0B13E8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9A7003C1-6E9C-4747-95E9-B9DA1D0B13E8}.Debug|Win32.Build.0 = Debug|Win32
+		{9A7003C1-6E9C-4747-95E9-B9DA1D0B13E8}.Release|Win32.ActiveCfg = Release|Win32
+		{9A7003C1-6E9C-4747-95E9-B9DA1D0B13E8}.Release|Win32.Build.0 = Release|Win32
+		{AD968978-7AEC-49DD-AC52-9EBADBE777D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD968978-7AEC-49DD-AC52-9EBADBE777D1}.Debug|Win32.Build.0 = Debug|Win32
+		{AD968978-7AEC-49DD-AC52-9EBADBE777D1}.Release|Win32.ActiveCfg = Release|Win32
+		{AD968978-7AEC-49DD-AC52-9EBADBE777D1}.Release|Win32.Build.0 = Release|Win32
+		{8978C824-9F33-4449-88F6-CB841BA5D415}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8978C824-9F33-4449-88F6-CB841BA5D415}.Debug|Win32.Build.0 = Debug|Win32
+		{8978C824-9F33-4449-88F6-CB841BA5D415}.Release|Win32.ActiveCfg = Release|Win32
+		{8978C824-9F33-4449-88F6-CB841BA5D415}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE53D7B6-9082-4796-AA09-801A99FEBD51}
+	EndGlobalSection
+EndGlobal
