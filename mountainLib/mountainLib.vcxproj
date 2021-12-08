@@ -56,7 +56,8 @@
       <Optimization>Disabled</Optimization>
       <AdditionalIncludeDirectories>../particleLib; ../coolLib; ../coolTex; ../Wintergames; ../NetworkPackets; ../menuLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <MinimalRebuild>true</MinimalRebuild>
+      <MinimalRebuild>
+      </MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader />
@@ -79,6 +80,7 @@
       <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MinimalRebuild />
     </ClCompile>
     <Lib>
       <AdditionalDependencies>Iphlpapi.lib;kernel32.lib;%(AdditionalDependencies)</AdditionalDependencies>

@@ -137,7 +137,7 @@ bool NetworkIO::initNetwork() {
 	}
 
 	// create socket
-	if ((ListenSocket = WSASocket(AF_INET, SOCK_STREAM, 0, NULL, 0, WSA_FLAG_OVERLAPPED)) == INVALID_SOCKET) {
+	if ((ListenSocket = WSASocketW(AF_INET, SOCK_STREAM, 0, NULL, 0, WSA_FLAG_OVERLAPPED)) == INVALID_SOCKET) {
 #ifdef _DEBUG
 		std::cout << "Winsock error: WSASocket() failed " << WSAGetLastError() << std::endl;
 #endif
@@ -184,7 +184,7 @@ bool NetworkIO::initClient(char* ipAdr) {
     struct sockaddr_in addr;
     memset((char *) &addr, 0, sizeof(addr));
     addr.sin_family = AF_INET;
-    addr.sin_addr.s_addr = inet_addr(ipAdr);
+	addr.sin_addr.s_addr = inet_addr(ipAdr);
     addr.sin_port = htons(PORT);
 
     SOCKET fd = socket(AF_INET, SOCK_STREAM, 0);		// create socket
